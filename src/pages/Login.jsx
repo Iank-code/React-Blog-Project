@@ -24,14 +24,14 @@ export default function Login() {
           <label>Email:</label>
           <input
             type="email"
-            className="border-2 outline-none border-black w-52 rounded px-4 py-2"
+            className="border-2 outline-none border-black w-52 rounded-lg px-4 py-2"
             placeholder="Enter your email address"
           />
 
           <label>Password:</label>
           <input
             type="password"
-            className="border-2 outline-none border-black w-52 rounded px-4 py-2"
+            className="border-2 outline-none border-black w-52 rounded-lg px-4 py-2"
             placeholder="Enter your password"
           />
 
