@@ -21,7 +21,10 @@ function Navbar() {
 
       <div className="flex gap-3">
         <button onClick={() => navigate("/login")}>Login</button>
-        <button onClick={()=> navigate("/signup")} className="bg-blue-600 text-white outline-none rounded-lg px-4 py-1">
+        <button
+          onClick={() => navigate("/signup")}
+          className="bg-blue-600 text-white outline-none rounded-lg px-4 py-1"
+        >
           Sign Up
         </button>
       </div>
